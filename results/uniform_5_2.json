@@ -1,0 +1,213 @@
+{
+  "n": 5,
+  "d": 2,
+  "matrix": [
+    [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0
+    ]
+  ],
+  "status": "optimal",
+  "is_proven_optimal": true,
+  "runtime_seconds": 0.006776094436645508,
+  "model_variables": 101,
+  "model_constraints": 55,
+  "lambda_value": 0.6666666666666666,
+  "objective_bound": 0.6666666666666666,
+  "relative_gap": 0.0,
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "flows": [
+    {
+      "destination": 0,
+      "from": 1,
+      "to": 3,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 0,
+      "from": 2,
+      "to": 4,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 0,
+      "from": 3,
+      "to": 0,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 0,
+      "from": 4,
+      "to": 0,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 1,
+      "from": 0,
+      "to": 3,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 1,
+      "from": 2,
+      "to": 1,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 1,
+      "from": 3,
+      "to": 1,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 1,
+      "from": 4,
+      "to": 2,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 2,
+      "from": 0,
+      "to": 4,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 2,
+      "from": 1,
+      "to": 2,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 2,
+      "from": 3,
+      "to": 1,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 2,
+      "from": 4,
+      "to": 2,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 3,
+      "from": 0,
+      "to": 3,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 3,
+      "from": 1,
+      "to": 3,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 3,
+      "from": 2,
+      "to": 1,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 3,
+      "from": 4,
+      "to": 0,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 4,
+      "from": 0,
+      "to": 4,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 4,
+      "from": 1,
+      "to": 2,
+      "amount": 0.3333333333333333
+    },
+    {
+      "destination": 4,
+      "from": 2,
+      "to": 4,
+      "amount": 0.6666666666666666
+    },
+    {
+      "destination": 4,
+      "from": 3,
+      "to": 0,
+      "amount": 0.3333333333333333
+    }
+  ]
+}

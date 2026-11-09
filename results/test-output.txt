@@ -1,0 +1,28 @@
+test_exact_uniform_small_instance (test_experiment.TopologyTests.test_exact_uniform_small_instance) ... Restricted license - for non-production use only - expires 2027-11-29
+ok
+test_explicit_seven_node_construction (test_experiment.TopologyTests.test_explicit_seven_node_construction) ... ok
+test_full_hose_and_sparse_hose (test_experiment.TopologyTests.test_full_hose_and_sparse_hose) ... ok
+test_model_size_stays_under_restricted_license (test_experiment.TopologyTests.test_model_size_stays_under_restricted_license) ... ok
+test_rejects_invalid_or_unbounded_inputs (test_experiment.TopologyTests.test_rejects_invalid_or_unbounded_inputs) ... ok
+test_uniform_demand_is_hose_feasible (test_experiment.TopologyTests.test_uniform_demand_is_hose_feasible) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.447s
+
+OK
+Restricted license - for non-production use only - expires 2027-11-29
+status=optimal lambda=0.6666666666666666 upper_bound=0.6666666666666666 output=results/uniform_5_2.json
+Restricted license - for non-production use only - expires 2027-11-29
+status=optimal lambda=0.6666666666666666 upper_bound=0.6666666666666666 output=results/uniform_7_3.json
+Restricted license - for non-production use only - expires 2027-11-29
+status=optimal lambda=0.7 upper_bound=0.7 output=results/uniform_8_4.json
+Restricted license - for non-production use only - expires 2027-11-29
+status=optimal lambda=1.0 upper_bound=1.0 output=results/regular_hose_8_4.json
+Restricted license - for non-production use only - expires 2027-11-29
+status=optimal lambda=4.0 upper_bound=4.0 output=results/sparse_hose_8_4.json
+uniform_5_2.json: lambda=0.666667, bound=0.666667, edges=10, flow/degrees/capacities valid
+uniform_7_3.json: lambda=0.666667, bound=0.666667, edges=21, flow/degrees/capacities valid
+uniform_8_4.json: lambda=0.700000, bound=0.700000, edges=32, flow/degrees/capacities valid
+regular_hose_8_4.json: lambda=1.000000, bound=1.000000, edges=32, flow/degrees/capacities valid
+sparse_hose_8_4.json: lambda=4.000000, bound=4.000000, edges=32, flow/degrees/capacities valid
+/Users/bhavinsg/Purdue/Junior/CS 42200 - Computer Networks/Assignment-4/results/report.pdf

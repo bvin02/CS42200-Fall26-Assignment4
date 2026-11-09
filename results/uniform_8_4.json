@@ -1,0 +1,628 @@
+{
+  "n": 8,
+  "d": 4,
+  "matrix": [
+    [
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0,
+      0.5714285714285714
+    ],
+    [
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.0
+    ]
+  ],
+  "status": "optimal",
+  "is_proven_optimal": true,
+  "runtime_seconds": 0.02755284309387207,
+  "model_variables": 449,
+  "model_constraints": 136,
+  "lambda_value": 0.7,
+  "objective_bound": 0.7,
+  "relative_gap": 0.0,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "flows": [
+    {
+      "destination": 0,
+      "from": 1,
+      "to": 0,
+      "amount": 1.0
+    },
+    {
+      "destination": 0,
+      "from": 2,
+      "to": 0,
+      "amount": 0.4
+    },
+    {
+      "destination": 0,
+      "from": 3,
+      "to": 1,
+      "amount": 0.2
+    },
+    {
+      "destination": 0,
+      "from": 3,
+      "to": 7,
+      "amount": 0.2
+    },
+    {
+      "destination": 0,
+      "from": 4,
+      "to": 0,
+      "amount": 0.4
+    },
+    {
+      "destination": 0,
+      "from": 5,
+      "to": 1,
+      "amount": 0.4
+    },
+    {
+      "destination": 0,
+      "from": 6,
+      "to": 7,
+      "amount": 0.4
+    },
+    {
+      "destination": 0,
+      "from": 7,
+      "to": 0,
+      "amount": 1.0
+    },
+    {
+      "destination": 1,
+      "from": 0,
+      "to": 1,
+      "amount": 0.6
+    },
+    {
+      "destination": 1,
+      "from": 2,
+      "to": 0,
+      "amount": 0.2
+    },
+    {
+      "destination": 1,
+      "from": 2,
+      "to": 6,
+      "amount": 0.2
+    },
+    {
+      "destination": 1,
+      "from": 3,
+      "to": 1,
+      "amount": 0.8
+    },
+    {
+      "destination": 1,
+      "from": 4,
+      "to": 3,
+      "amount": 0.2
+    },
+    {
+      "destination": 1,
+      "from": 4,
+      "to": 5,
+      "amount": 0.2
+    },
+    {
+      "destination": 1,
+      "from": 5,
+      "to": 1,
+      "amount": 0.6
+    },
+    {
+      "destination": 1,
+      "from": 6,
+      "to": 1,
+      "amount": 0.8
+    },
+    {
+      "destination": 1,
+      "from": 7,
+      "to": 3,
+      "amount": 0.2
+    },
+    {
+      "destination": 1,
+      "from": 7,
+      "to": 6,
+      "amount": 0.2
+    },
+    {
+      "destination": 2,
+      "from": 0,
+      "to": 2,
+      "amount": 0.4
+    },
+    {
+      "destination": 2,
+      "from": 1,
+      "to": 2,
+      "amount": 0.4
+    },
+    {
+      "destination": 2,
+      "from": 3,
+      "to": 4,
+      "amount": 0.4
+    },
+    {
+      "destination": 2,
+      "from": 4,
+      "to": 2,
+      "amount": 1.0
+    },
+    {
+      "destination": 2,
+      "from": 5,
+      "to": 4,
+      "amount": 0.2
+    },
+    {
+      "destination": 2,
+      "from": 5,
+      "to": 6,
+      "amount": 0.2
+    },
+    {
+      "destination": 2,
+      "from": 6,
+      "to": 2,
+      "amount": 1.0
+    },
+    {
+      "destination": 2,
+      "from": 7,
+      "to": 6,
+      "amount": 0.4
+    },
+    {
+      "destination": 3,
+      "from": 0,
+      "to": 1,
+      "amount": 0.2
+    },
+    {
+      "destination": 3,
+      "from": 0,
+      "to": 6,
+      "amount": 0.2
+    },
+    {
+      "destination": 3,
+      "from": 1,
+      "to": 3,
+      "amount": 0.6
+    },
+    {
+      "destination": 3,
+      "from": 2,
+      "to": 4,
+      "amount": 0.4
+    },
+    {
+      "destination": 3,
+      "from": 4,
+      "to": 3,
+      "amount": 0.8
+    },
+    {
+      "destination": 3,
+      "from": 5,
+      "to": 7,
+      "amount": 0.4
+    },
+    {
+      "destination": 3,
+      "from": 6,
+      "to": 3,
+      "amount": 0.6
+    },
+    {
+      "destination": 3,
+      "from": 7,
+      "to": 3,
+      "amount": 0.8
+    },
+    {
+      "destination": 4,
+      "from": 0,
+      "to": 1,
+      "amount": 0.2
+    },
+    {
+      "destination": 4,
+      "from": 0,
+      "to": 2,
+      "amount": 0.2
+    },
+    {
+      "destination": 4,
+      "from": 1,
+      "to": 4,
+      "amount": 0.8
+    },
+    {
+      "destination": 4,
+      "from": 2,
+      "to": 4,
+      "amount": 0.6
+    },
+    {
+      "destination": 4,
+      "from": 3,
+      "to": 4,
+      "amount": 0.6
+    },
+    {
+      "destination": 4,
+      "from": 5,
+      "to": 4,
+      "amount": 0.8
+    },
+    {
+      "destination": 4,
+      "from": 6,
+      "to": 1,
+      "amount": 0.2
+    },
+    {
+      "destination": 4,
+      "from": 6,
+      "to": 3,
+      "amount": 0.2
+    },
+    {
+      "destination": 4,
+      "from": 7,
+      "to": 5,
+      "amount": 0.4
+    },
+    {
+      "destination": 5,
+      "from": 0,
+      "to": 2,
+      "amount": 0.4
+    },
+    {
+      "destination": 5,
+      "from": 1,
+      "to": 2,
+      "amount": 0.2
+    },
+    {
+      "destination": 5,
+      "from": 1,
+      "to": 4,
+      "amount": 0.2
+    },
+    {
+      "destination": 5,
+      "from": 2,
+      "to": 5,
+      "amount": 1.0
+    },
+    {
+      "destination": 5,
+      "from": 3,
+      "to": 5,
+      "amount": 0.6
+    },
+    {
+      "destination": 5,
+      "from": 4,
+      "to": 5,
+      "amount": 0.6
+    },
+    {
+      "destination": 5,
+      "from": 6,
+      "to": 3,
+      "amount": 0.2
+    },
+    {
+      "destination": 5,
+      "from": 6,
+      "to": 7,
+      "amount": 0.2
+    },
+    {
+      "destination": 5,
+      "from": 7,
+      "to": 5,
+      "amount": 0.6
+    },
+    {
+      "destination": 6,
+      "from": 0,
+      "to": 6,
+      "amount": 0.8
+    },
+    {
+      "destination": 6,
+      "from": 1,
+      "to": 2,
+      "amount": 0.4
+    },
+    {
+      "destination": 6,
+      "from": 2,
+      "to": 6,
+      "amount": 0.8
+    },
+    {
+      "destination": 6,
+      "from": 3,
+      "to": 5,
+      "amount": 0.4
+    },
+    {
+      "destination": 6,
+      "from": 4,
+      "to": 0,
+      "amount": 0.4
+    },
+    {
+      "destination": 6,
+      "from": 5,
+      "to": 6,
+      "amount": 0.8
+    },
+    {
+      "destination": 6,
+      "from": 7,
+      "to": 6,
+      "amount": 0.4
+    },
+    {
+      "destination": 7,
+      "from": 0,
+      "to": 7,
+      "amount": 1.0
+    },
+    {
+      "destination": 7,
+      "from": 1,
+      "to": 3,
+      "amount": 0.4
+    },
+    {
+      "destination": 7,
+      "from": 2,
+      "to": 0,
+      "amount": 0.4
+    },
+    {
+      "destination": 7,
+      "from": 3,
+      "to": 7,
+      "amount": 0.8
+    },
+    {
+      "destination": 7,
+      "from": 4,
+      "to": 0,
+      "amount": 0.2
+    },
+    {
+      "destination": 7,
+      "from": 4,
+      "to": 5,
+      "amount": 0.2
+    },
+    {
+      "destination": 7,
+      "from": 5,
+      "to": 7,
+      "amount": 0.6
+    },
+    {
+      "destination": 7,
+      "from": 6,
+      "to": 7,
+      "amount": 0.4
+    }
+  ]
+}
